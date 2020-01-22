@@ -20,7 +20,7 @@ res.setContentType("text/html");
 PrintWriter out=res.getWriter();
 
 out.println("<html><body>");  
-out.println("Welcome"+i+" to servlet at"+new Date());  
+out.println("Welcome"+req.getParameter("ravi")+i+" to servlet at"+new Date());  
 out.println("</body></html>");  
   
 out.close();
